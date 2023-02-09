@@ -1,30 +1,30 @@
 package controller;
 
-import jakarta.servlet.ServletException;
+import java.io.IOException;
 
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import model.CoinConverter;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-
 /**
- * Servlet implementation class getCentsServlet
+ * Servlet implementation class getCentsServlet1
  */
-@WebServlet("/getCentsServlet")
-public class getCentsServlet extends HttpServlet {
+@WebServlet("/getCentsServlet1")
+public class getCentsServlet1 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public getCentsServlet() {
+    public getCentsServlet1() {
         super();
         // TODO Auto-generated constructor stub
     }
+
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
@@ -44,5 +44,4 @@ public class getCentsServlet extends HttpServlet {
 				//writer.close();
 		
 	}
-
 }
